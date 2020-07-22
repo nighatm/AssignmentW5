@@ -2,14 +2,19 @@
     margin: 5vw;
     border-bottom: 2px solid black;
     padding-bottom: 5vw;
+    text-indent: 1rem;
 }
 #top-text{
     display: inline-block;
     width: 60vw;
+    margin: 10vh;
 }
 #top-image{
-    width: 25vw;
+    
+    width: 25%;
 }
-#bottom-text{
-    margin:5vw;
+#bottom-text2{
+    margin:10em;
+    text-indent: 30pt;
+    text-size-adjust: 10vh;;
 }
