@@ -1,0 +1,127 @@
+@keyframes menuAnimation{
+    0%{
+        height: 10vh;
+        background-color:red;
+    }
+    50%{
+        height: 20vh;
+        background-color: green;
+    }
+    100%{
+        height: 10vh;
+        background-color: gold;
+    }
+}
+
+
+#header-option2:hover{
+  
+    animation-name: menuAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out ;
+    animation-iteration-count: infinite;
+    }
+#main-img:hover{
+    transform: rotate(120deg);
+    
+
+    }
+    #content1-p:hover{
+        width: 500px;
+    }
+   
+*{
+    margin: 0;
+    padding: 0;
+}
+#grid-container{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#header {
+    width: 100%;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
+    background-color: burlywood;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+
+#content{
+    
+    width: 90%;
+    min-height: 70vh;
+    display: grid;
+    row-gap: 3vw;  
+ 
+}
+#content1{
+    width: 90%;
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 3vw;
+}
+
+
+#content1-p{
+    color: red;
+    font-size: 30pt;
+    text-align: center; 
+    font-weight: bold;
+    text-decoration: underline wavy olive;
+}
+#video-p{
+    color: maroon;
+    font-size: 30pt;
+    text-align: center;    
+    font-weight: bold;
+    text-decoration: underline dotted goldenrod;
+}
+#content3-p{
+    color:darkred;
+    font-size: 20pt;
+    font-weight: bold;   
+}
+
+#content2{
+
+    width: 90%;
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 3vw;
+    margin-left: 13vw;
+    margin-top: 5vw;
+    
+   }
+   
+#content3{
+    width: 90%;
+    min-height: 30vh;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(120px, 1fr));
+    
+    margin-left: 2vw;
+}
+        
+
+#footer{
+    width: 100%;
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5vw;
+    background-color: burlywood;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
